@@ -485,4 +485,8 @@ header.sticky {
   .newsletter-content form {
     grid-template-columns: 1fr;
   }
+  .h-right a:first-child {
+    font-size: 0.8rem;
+  }
+
 }
