@@ -482,4 +482,7 @@ header.sticky {
   section{
     padding: 60px 3% 50px;
   }
+  .newsletter-content form {
+    grid-template-columns: 1fr;
+  }
 }
