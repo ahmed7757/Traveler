@@ -486,7 +486,12 @@ header.sticky {
     grid-template-columns: 1fr;
   }
   .h-right a:first-child {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    margin-left: 5px;
+    margin-right: 5px;
   }
-
+  .home-text h5 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
 }
