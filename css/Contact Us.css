@@ -61,7 +61,7 @@
         border-radius: 50%;
         border: 2px solid var(--main-color);
         bottom: -38px;
-        background-color: white;
+        background-color: #000;
       }
       .main-heading p {
         font-size: var(--p-font);
