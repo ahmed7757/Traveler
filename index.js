@@ -11,3 +11,16 @@ menu.onclick = () => {
     menu.classList.toggle("bx-x");
     navbar.classList.toggle("open");
 };
+
+let span = document.querySelector(".up");
+
+window.addEventListener("scroll", function() {
+    span.classList.toggle("show", window.scrollY > 1000)
+});
+
+span.onclick = () => {
+    window.scrollTo({
+        top: 0,
+        behavior:"smooth",
+    })
+}
